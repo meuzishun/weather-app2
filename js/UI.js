@@ -237,7 +237,7 @@ const renderCurrentlyDisplay = function (weatherData) {
 
   const icon = weatherData.current.weather[0].icon;
   const image = document.createElement('img');
-  image.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+  image.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
   imgContainer.appendChild(image);
 
   const description = document.createElement('p');
@@ -338,7 +338,7 @@ const renderHourlyDisplay = function (data) {
     hourCard.appendChild(imgContainer);
 
     const img = document.createElement('img');
-    img.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+    img.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     imgContainer.appendChild(img);
 
     const tempContainer = document.createElement('div');
@@ -407,7 +407,7 @@ const renderDayCards = function (data) {
     dayCard.appendChild(imgContainer);
 
     const img = document.createElement('img');
-    img.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+    img.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     imgContainer.appendChild(img);
 
     const tempContainer = document.createElement('div');
