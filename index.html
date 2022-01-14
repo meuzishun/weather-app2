@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- <link rel="stylesheet" href="../src/css/styles.min.css" /> -->
+    <link rel="stylesheet" href="styles.min.css" />
+    <!-- <script src="main.js"></script> -->
+    <!-- <script src="../src/index.js" type="module"></script> -->
+    <script src="index.js" type="module"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="left-side">
+          <h2 class="location-title"></h2>
+        </div>
+        <div class="right-side">
+          <div class="temp-switch">
+            <input type="checkbox" name="temp" id="temp" />
+            <label for="temp">
+              <p>F</p>
+              <p>C</p>
+            </label>
+            <div class="cover fahrenheit"></div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="loading-message">Loading...</div>
+      </main>
+    </div>
+  </body>
+</html>
